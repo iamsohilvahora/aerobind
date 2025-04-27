@@ -1,0 +1,7 @@
+frontend/display.php - old version
+lib/admin/options.php - new version
+lib/class-svi-admin.php - new version
+lib/class-frontend.php - new version
+lib/class-svi-general.php - new version
+svipro.php - new version
+assets/vendor/photoswipe/default-skin.css - new version

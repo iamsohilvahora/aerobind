@@ -1,0 +1,231 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce WooTabs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-09 19:58+0200\n"
+"PO-Revision-Date: 2015-01-09 19:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: woocommerce-wootabs.php:19
+msgid "NON VERIFIED"
+msgstr ""
+
+#: woocommerce-wootabs.php:20
+msgid "NON VERIFIED CONTENT"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:121
+#: admin/class-woocommerce-wootabs-admin.php:353
+#: admin/class-woocommerce-wootabs-admin.php:354
+msgid "WooTabs"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:183
+#: admin/class-woocommerce-wootabs-admin.php:316
+#: public/class-woocommerce-wootabs.php:344
+msgid "Tab no."
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:195
+#: admin/class-woocommerce-wootabs-admin.php:311
+#: admin/views/admin.php:247
+#: public/class-woocommerce-wootabs.php:339
+msgid "Remove"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:198
+#: admin/class-woocommerce-wootabs-admin.php:312
+#: admin/views/admin.php:260
+#: public/class-woocommerce-wootabs.php:340
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:199
+#: admin/class-woocommerce-wootabs-admin.php:313
+#: admin/views/admin.php:261
+#: public/class-woocommerce-wootabs.php:341
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:204
+#: admin/class-woocommerce-wootabs-admin.php:314
+#: admin/views/admin.php:266
+#: public/class-woocommerce-wootabs.php:342
+msgid "Tab title"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:222
+#: admin/views/admin.php:337
+msgid "Add Tab"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:223
+#: admin/class-woocommerce-wootabs-admin.php:226
+#: admin/views/admin.php:338
+#: admin/views/admin.php:341
+msgid "loading"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:225
+#: admin/views/admin.php:340
+msgid "Save Tabs"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:308
+#: public/class-woocommerce-wootabs.php:336
+msgid "Are you sure you want to remove this tab?"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:315
+#: admin/views/admin.php:219
+#: public/class-woocommerce-wootabs.php:343
+msgid "Global tab no."
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:317
+#: public/class-woocommerce-wootabs.php:345
+msgid "You have un-saved tabs."
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:318
+msgid "You have to save your setting before activating license"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:319
+msgid "License code is already activated"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:320
+#: public/class-woocommerce-wootabs.php:661
+msgid "An error occured on license activation. Please try again."
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:321
+#: public/class-woocommerce-wootabs.php:720
+msgid "An error occured on license deactivation. Please try again."
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:322
+msgid "Your license is not activated"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:362
+#: admin/class-woocommerce-wootabs-admin.php:409
+#: admin/views/admin.php:18
+msgid "Settings"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:363
+#: admin/views/admin.php:19
+msgid "Product license"
+msgstr ""
+
+#: admin/class-woocommerce-wootabs-admin.php:555
+#: admin/class-woocommerce-wootabs-admin.php:578
+msgid "Settings saved successful."
+msgstr ""
+
+#: admin/views/admin.php:139
+msgid "Enable Access to Shop Manager"
+msgstr ""
+
+#: admin/views/admin.php:146
+msgid "Remove WooTabs Data on Plugin Uninstall"
+msgstr ""
+
+#: admin/views/admin.php:157
+msgid "Use Global Tabs"
+msgstr ""
+
+#: admin/views/admin.php:164
+msgid "WooTabs Position Display"
+msgstr ""
+
+#: admin/views/admin.php:167
+msgid "Before Default WooCommerce Tabs"
+msgstr ""
+
+#: admin/views/admin.php:168
+msgid "After Default WooCommerce Tabs"
+msgstr ""
+
+#: admin/views/admin.php:175
+msgid "Global WooTabs Position Display"
+msgstr ""
+
+#: admin/views/admin.php:178
+msgid "Before Product WooTabs"
+msgstr ""
+
+#: admin/views/admin.php:179
+msgid "After Product WooTabs"
+msgstr ""
+
+#: admin/views/admin.php:279
+msgid "Select products categories where tab will appear"
+msgstr ""
+
+#: admin/views/admin.php:283
+msgid "All categories"
+msgstr ""
+
+#: admin/views/admin.php:356
+#: admin/views/admin.php:445
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/admin.php:395
+#, php-format
+msgid "By verifying your product's license you qualified to enable auto updates of <b>WooTabs</b> plugin. The license (purchase) code may only be used for one WordPress site at a time. If you have previously activated your license code on another site, then you should deactivate it first or obtain a %snew one%s ."
+msgstr ""
+
+#: admin/views/admin.php:404
+msgid "Envato username"
+msgstr ""
+
+#: admin/views/admin.php:412
+msgid "Secret API key"
+msgstr ""
+
+#: admin/views/admin.php:421
+#: admin/views/admin.php:437
+msgid "Where to find it?"
+msgstr ""
+
+#: admin/views/admin.php:428
+msgid "Purchase code"
+msgstr ""
+
+#: admin/views/admin.php:447
+msgid "Activate license"
+msgstr ""
+
+#: admin/views/admin.php:448
+msgid "Deactivate license"
+msgstr ""
+
+#: public/class-woocommerce-wootabs.php:660
+msgid "License activated successful"
+msgstr ""
+
+#: public/class-woocommerce-wootabs.php:719
+msgid "License deactivated successful"
+msgstr ""
+
+#: public/class-wootabs_update_plugin.php:138
+#, php-format
+msgid "%s Download new version from CodeCanyon %s or %s enable auto update."
+msgstr ""
+

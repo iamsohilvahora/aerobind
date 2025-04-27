@@ -1,0 +1,579 @@
+.wootabs-clearfix:before,
+.wootabs-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.wootabs-clearfix:after {
+  clear: both;
+}
+#wpwrap{
+	padding-bottom:100px;
+}
+
+.toplevel_page_woocommerce-wootabs #wpwrap{
+	display: inline-block;
+}
+
+.toplevel_page_woocommerce-wootabs #wpbody-content{
+	padding-bottom: 0;
+}
+
+.wootabs-settings-wrapper{
+	display: block;
+	margin:0 15px 0 0;
+}
+
+.wootabs-settings-wrapper .updated{
+	padding:10px;
+	margin:0 0 15px 0;
+}
+
+.wootabs-settings-title{
+	padding:20px 0 20px 0;
+	font-weight: lighter;
+}
+
+.wootabs-settings-form{
+	display: inline-block;
+	width: 100%;
+}
+
+.wootabs-settings-form label{
+	display:inline-block;
+	font-weight: bold;
+	margin-bottom:6px;
+}
+
+.wootabs-settings-form textarea{
+	padding:10px;
+	min-height: 130px;
+	min-width: 40%;
+	max-width: 550px;
+}
+
+.wootabs-settings-form select{
+	margin-top: -5px;
+}
+
+.wootabs-settings-form input[type="checkbox"]{
+	margin-top: -5px;
+}
+
+.wootabs-settings-form input[type="text"]{
+	height: 30px;
+	display: inline-block;
+	width: 770px;
+	max-width: 98%;
+}
+
+.wootabs-settings-save, .loading-save-settings{
+	position: relative;
+	width: auto;
+	float: left;
+	display: inline-block;
+}
+
+.loading-save-settings{
+	display: none;
+	margin:4px;
+}
+
+.wootabs-asw{
+	position:relative;
+	width:99%;
+	display: block;
+	padding:15px 0 10px 0;
+	clear: both;
+}
+
+.wootabs-asw.gtabs{
+	padding:0;
+}
+
+.wootabs-asw.gtabs.hidden,
+.wt-gpos.hidden{
+	display: none;
+}
+
+.wootabs-global-tabs{
+	position: relative;
+	display: block;
+	max-width: 850px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.gbl.wootabs-global-tabs{
+	background: none;
+	border:0;
+}
+
+.gtabs-title{
+	padding:15px 20px;
+	margin:0;
+	font-size: 1.15em;
+}
+
+.wootabs-handlediv{
+	position: absolute;
+	right: 10px;
+	top:6px;
+	width: 27px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.wt-tab .wootabs-handlediv{
+	top:5px;
+	right:85px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+}
+
+.wootabs-handlediv:before{
+    right: 12px;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 8px 10px;
+    top: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+
+.open .wootabs-handlediv:before{
+    content: '\f142';
+}
+
+.wt-open .wootabs-handlediv:before{
+    content: '\f142' !important;
+}
+
+.wootabs-handlediv:before,
+.wt-tab .wootabs-handlediv:before{
+    content: '\f140';
+}
+
+.wootabs-handlediv{
+    color: #aaa;
+}
+
+.wt-tabs-title{
+	margin:0 210px 0 0;
+	padding:1.03em 0;
+	cursor: move;
+	min-height: 18px;
+}
+
+.gtabs-title{
+	cursor: pointer;
+}
+
+.gtabs-title:hover .wootabs-handlediv,
+.wt-tabs-title .wootabs-handlediv:hover{
+    color: #777;
+}
+
+#wt-tab-wrapper{
+	position: relative;
+	padding:0 19px 15px 19px;
+	margin:0;
+	border-top: 1px solid #dfdfdf;
+}
+
+.gbl #wt-tab-wrapper{
+	padding:0 0 15px 0;
+	border-top:0;
+}
+
+.gbl #wt-tab-wrapper{
+	border:0;
+}
+
+.tabs-creation-form{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	display:none;
+}
+
+.open .tabs-creation-form{
+	display: block;
+}
+
+.single_product #wt-tab-wrapper{
+	padding:0 0px 15px 0px;
+	border-top: 0;
+}
+
+.single_product.tabs-creation-form{
+	display: block;
+}
+
+.wt-tab,
+.wootabs-sortable-placeholder{
+	position: relative;
+	width:98%;
+	display: inline-block;
+	margin: 15px 0 0px 0;
+	padding: 0 1%;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.gbl .wt-tab,
+.gbl .wootabs-sortable-placeholder{
+	background-color: #fafafa;
+}
+
+.wootabs-sortable-placeholder{
+	border: 1px dashed #dfdfdf;
+	background-color: #f9f9f9;
+	min-height: 41px;
+}
+
+.gbl .wootabs-sortable-placeholder{
+	background-color: #f6f6f6;
+}
+
+.wt-tab-content{
+	position:relative;
+	width:100%;
+	display: inline-block;
+	padding:20px 0;
+	border-top: 1px solid #dfdfdf;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	display: none;
+}
+
+.wt-open .wt-tab-content{
+	display: inline-block;
+}
+
+#wtabs-temp-editor{
+	display:none;
+}
+
+.wootabs-add-tab{
+	margin-top:0 !important;
+	display: block;
+	padding:10px 19px 20px 19px;
+}
+
+.gbl .wootabs-add-tab{
+	padding:10px 0 20px 0;
+}
+
+.single_product .wootabs-add-tab {
+	width:100%;
+	padding:5px 0 5px 0 !important;
+}
+
+.wootabs-add-tab input{
+	position:relative;
+	float: left;
+	margin:0 0 0 0 !important;
+}
+
+.add-tab-button,
+.loading-add-tab{
+	position: relative;
+	float: left;
+	width:auto;
+	display: inline-block;
+}
+
+.loading-add-tab{
+	margin-top:4px;
+	margin-left: 8px;
+	display: none;
+}
+
+.loading-save-tabs{
+	position: relative;
+	float: right;
+	width:auto;
+	display: none;
+	margin-top:4px;
+	margin-right: 8px;
+}
+
+label.populate-global-label{
+	position: relative;
+	display: inline-block;
+	padding:0;
+	margin:10px 0 15px;
+	font-size: 1.05em;
+}
+
+label.wtab-label{
+	position: relative;
+	display: block;
+	padding:0;
+	font-size: 1.05em;
+}
+
+label.wtab-label.categs{
+	margin-top:25px;
+}
+
+input.wtab-inputt{
+	position: relative;
+	display: block;
+	width: 100% !important;
+	max-width: 100% !important;
+	height: 32px;
+	margin:5px 0 15px 0;
+	padding:0 1%;
+}
+
+textarea.wtab-textarea{
+	position: relative;
+	display: block;
+	margin:0;
+	width:100%;
+	min-width:100%;
+	max-width:100%;
+	height:100px;
+	min-height: 50px;
+}
+
+.button.save-tab-button{
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin: 0 !important;
+}
+
+.button.save-tab-button.hidden-savebutton{
+	display: none;
+}
+
+.button.remove-tab-button{
+	position: absolute;
+	top:9px;
+	right:1%;
+}
+
+.enabled-global-tab{
+	position:absolute;
+	top:9px;
+	right:127px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.enabled-global-tab.green{
+	color:#2cca33;
+}
+
+.enabled-global-tab.red{
+	color:red;
+}
+
+.enabled-global-tab option{
+	color:#555;
+}
+
+.wootabs-settings-form label.gwt-lbl{
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.gwt-p{
+	margin-bottom: 0;
+}
+.gtcs-wrapper{
+	display: block;
+	padding:15px 5px 0;
+}
+
+.gtcs-wrapper .gwt-lbl {
+	margin-bottom:7px;
+}
+
+.gtabs_lang_selection{
+	position:absolute;
+	top:9px;
+	right:215px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.toplevel_page_woocommerce-wootabs .nav-tab-wrapper{
+	padding-left:0;
+	padding-right:0;
+}
+
+h2.nav-tab-wrapper a{
+	font-size: 14px;
+}
+
+div.updated.license_key_info{
+	position: relative;
+	border:0;
+	margin-bottom: 5px;
+}
+
+div.updated.license_key_info p{
+	padding-left:30px;
+	font-size: 13px;
+}
+
+div.updated.license_key_info a{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+div.updated.license_key_info .dashicons{
+	position: absolute;
+	top:16px;
+	left:11px;
+	font-size: 23px;
+	opacity: .5;
+}
+.wootabs-settings-form  label.product-license-label{
+	min-width: 120px;
+}
+
+.wootabs-settings-form  input[type="text"].product-license-txt-input{
+	max-width: 250px;
+	margin-right:10px;
+}
+
+.where-find-license{
+	display: inline-block;
+	font-size: 12px;
+}
+
+.toplevel_page_woocommerce-wootabs #TB_window img#TB_Image{
+	margin-top: 30px;
+}
+
+.toplevel_page_woocommerce-wootabs #TB_caption,
+.toplevel_page_woocommerce-wootabs #TB_closeWindow{
+	height:auto;
+	overflow: visible;
+}
+
+.wootabs-license-buttons{
+	position: relative;
+	width:auto;
+	display: inline-block;
+	padding-top:0;
+	padding-right: 26px;
+}
+
+.wootabs-license-buttons .button{
+	margin-left:7px;
+}
+
+.wootabs-loading-license-activation{
+	position: absolute;
+	right:0;
+	top:15px;
+	width:auto;
+	display: none;
+}
+
+.wootabs-deactivate-license{
+	display: inline-block;
+}
+
+.wootabs-activate-license{
+	display: none !important;
+}
+
+.to-activate .wootabs-activate-license{
+	display: inline-block !important;
+}
+
+.to-activate .wootabs-deactivate-license{
+	display: none !important;
+}
+
+.activating .wootabs-loading-license-activation{
+	display: inline-block;
+}
+
+.wootabs-settings-wrapper .updated.wootabs-license-messages{
+	margin-top: 15px;
+	margin-bottom: -10px;
+	display:none;
+}
+
+.wootabs-tabs-order-wrapper{
+	position:relative;
+	display: block;
+	max-width: 830px;
+	padding:10px 10px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	background:#fff;
+	background:rgba(255,255,255,0.7);
+}
+
+.wootabs-tabs-order-wrapper label{
+	font-weight: bold;
+	margin: 10px 10px 0 10px;
+	display: block;
+}
+
+.wootabs-tabs-order-wrapper ul{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin:10px 0 20px 0;
+}
+
+.wootabs-tabs-order-wrapper ul li{
+	position:relative;
+	width:auto;
+	padding:0 8px;
+	margin:10px 0;
+	display: inline-block;
+}
+
+.wootabs-tabs-order-wrapper ul li span{
+	cursor:move !important;
+	margin:0;
+	vertical-align: middle !important;
+}
+
+.wootabs-tabs-order-wrapper ul li.wootabs-sortable-tabs-placeholder{
+	padding:0 0;
+	margin:10px 8px;
+	border: 1px solid #dfdfdf;
+	background-color: #efefef;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	vertical-align: middle !important;
+}
+
+.gtcs-wrapper ul.list-wootabs-cats ul {
+	margin-left: 18px;
+}

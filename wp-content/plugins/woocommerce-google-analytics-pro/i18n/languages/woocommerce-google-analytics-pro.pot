@@ -1,0 +1,906 @@
+# Copyright (C) 2022 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Google Analytics Pro 1.13.0\n"
+"Report-Msgid-Bugs-To: "
+"https://woocommerce.com/my-account/marketplace-ticket-form/\n"
+"POT-Creation-Date: 2022-11-22 10:57:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Google Analytics Pro"
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:399
+#. translators: Placeholder: %s - WooCommerce Google Analytics Pro (plugin
+#. name)
+msgid ""
+"%s: The free WooCommerce Google Analytics integration has been deactivated "
+"and is not needed when the Pro version is active."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:431
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+msgid ""
+"%1$sNeed help setting up WooCommerce Google Analytics Pro?%2$s Please "
+"%3$sread the documentation%4$s."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:443
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+msgid ""
+"%1$sWooCommerce Google Analytics Pro is almost ready!%2$s To get started, "
+"please ​%3$sconnect to Google Analytics%4$s."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:468
+#. translators: placeholders: %s - plugin name
+msgid ""
+"%s is active. Its settings will take precedence over the values set in the "
+"\"Tracking Settings\" section."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:482
+#. translators: placeholders: %s - plugin name
+msgid ""
+"%s is set to Debug Mode. Please disable debug mode so WooCommerce Google "
+"Analytics Pro can function properly."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:493
+#. translators: placeholders: %s - plugin name
+msgid ""
+"WooCommerce Google Analytics Pro requires Universal Analytics. Please "
+"enable Universal Analytics in %s."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:503
+msgid "Google Analytics Pro:"
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:504
+msgid ""
+"Heads up! We've detected that another plugin is sending duplicated events "
+"to Google Analytics, which can result in duplicated tracking data. Please "
+"disable any other plugins tracking events in Google Analytics while using "
+"Google Analytics Pro."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:530
+#. translators: %1$s - function name, %2$s, %4$s - opening <a> tag, %3$s, %5$s
+#. - closing </a> tag
+msgid ""
+"Please update any custom tracking code & switch the Google Analytics "
+"javascript tracker function name to %1$s in the %2$sGoogle Analytics "
+"settings%3$s. You can %4$slearn more from the plugin documentation%5$s."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:610
+#. translators: Placeholders: %1$s - plugin name (bold), %2$s - opening HTML
+#. <a> link tag, %3$s - closing HTML </a> link tag
+msgid ""
+"%1$s: WooCommerce Google Analytics Pro requires Enhanced Ecommerce to be "
+"enabled. Please enable Enhanced Ecommerce on your %2$sGoogle Analytics "
+"View%3$s."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:617
+#. translators: Placeholders: %1$s - plugin name (bold), %2$s - a list of links
+msgid ""
+"%1$s: WooCommerce Google Analytics Pro requires Enhanced Ecommerce to be "
+"enabled. Please enable Enhanced Ecommerce on the following Google Analytics "
+"Views: %2$s"
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:634
+#. translators: Placeholders: %1$s - plugin name, %2$s and %3$s - currency
+#. code, e.g. USD, %4$s - <a> tag, %5$s - </a> tag
+msgid ""
+"%1$s: Your Google Analytics View currency (%2$s) does not match WooCommerce "
+"currency (%3$s). You can change it %4$son your Google Analytics View%5$s."
+msgstr ""
+
+#: class-wc-google-analytics-pro.php:643
+#. translators: Placeholders: %1$s - plugin name, %2$s - currency code, %3$s -
+#. a list of links
+msgid ""
+"%1$s: Your Google Analytics Views currencies does not match WooCommerce "
+"currency (%2$s). You can change it on the following Google Analytics Views: "
+"%3$s"
+msgstr ""
+
+#: src/api/class-wc-google-analytics-pro-management-api.php:161
+msgid "A valid Google Analytics Account ID ID is required to list user profiles."
+msgstr ""
+
+#: src/api/class-wc-google-analytics-pro-management-api.php:165
+msgid "A valid Web Property ID is required to list user profiles."
+msgstr ""
+
+#: src/api/class-wc-google-analytics-pro-measurement-protocol-api.php:154
+#. translators: Placeholders: %s - error message
+msgid "Error tracking event: %s"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:462
+msgid "Event Names"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:463
+msgid ""
+"Customize the event names you wish to track in Google Analytics. Leave a "
+"field blank to disable tracking for the event."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:468
+msgid "Signed In"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:469
+msgid "Triggered when a customer signs in."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:475
+msgid "Signed Out"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:476
+msgid "Triggered when a customer signs out."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:482
+msgid "Viewed Signup"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:483
+msgid "Triggered when a customer views the registration form."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:489
+msgid "Signed Up"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:490
+msgid "Triggered when a customer registers a new account."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:496
+msgid "Viewed Homepage"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:497
+msgid "Triggered when a customer views the homepage."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:503
+msgid "Viewed Product"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:504
+msgid "Triggered when a customer views a single product."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:510
+msgid "Clicked Product"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:511
+msgid ""
+"Triggered when a customer clicks a product in listing, such as search "
+"results or related products."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:517
+msgid "Added to Cart"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:518
+msgid "Triggered when a customer adds an item to the cart."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:524
+msgid "Removed from Cart"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:525
+msgid "Triggered when a customer removes an item from the cart."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:531
+msgid "Changed Cart Quantity"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:532
+msgid "Triggered when a customer changes the quantity of an item in the cart."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:538
+msgid "Viewed Cart"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:539
+msgid "Triggered when a customer views the cart."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:545
+msgid "Applied Coupon"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:546
+msgid "Triggered when a customer applies a coupon."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:552
+msgid "Removed Coupon"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:553
+msgid "Triggered when a customer removes a coupon."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:559
+msgid "Started Checkout"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:560
+msgid "Triggered when a customer starts the checkout."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:566
+msgid "Provided Billing Email"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:567
+msgid "Triggered when a customer provides a billing email at checkout."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:573
+msgid "Selected Payment Method"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:574
+msgid "Triggered when a customer selects a payment method at checkout."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:580
+msgid "Placed Order"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:581
+msgid "Triggered when a customer places an order via checkout."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:587
+msgid "Started Payment"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:588
+msgid ""
+"Triggered when a customer views the payment page (used with direct post "
+"payment gateways)."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:594
+msgid "Completed Purchase"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:595
+msgid "Triggered when a customer completes a purchase."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:601
+msgid "Wrote Review"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:602
+msgid "Triggered when a customer writes a review."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:608
+msgid "Commented"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:609
+msgid "Triggered when a customer writes a comment."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:615
+msgid "Viewed Account"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:616
+msgid "Triggered when a customer views the My Account page."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:622
+msgid "Viewed Order"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:623
+msgid "Triggered when a customer views an order."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:629
+msgid "Updated Address"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:630
+msgid "Triggered when a customer updates their address."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:636
+msgid "Changed Password"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:637
+msgid "Triggered when a customer changes their password."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:643
+msgid "Estimated Shipping"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:644
+msgid "Triggered when a customer estimates shipping."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:650
+msgid "Tracked Order"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:651
+msgid "Triggered when a customer tracks an order."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:657
+msgid "Cancelled Order"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:658
+msgid "Triggered when a customer cancels an order."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:664
+msgid "Order Refunded"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:665
+msgid "Triggered when an order is refunded."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:671
+msgid "Reordered"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:672
+msgid "Triggered when a customer reorders a previous order."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:678
+msgid "404 Error"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:679
+msgid "Triggered when a 404 (\"Not Found\") error occurs."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:690
+msgid "Property Names"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:691
+msgid ""
+"Customize the property names. Leave a field blank to disable tracking of "
+"that property."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:697
+msgid "Product Name"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:698
+msgid ""
+"Tracked when a customer views a product, adds / removes / changes "
+"quantities in the cart, or writes a review."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:704
+msgid "Product Quantity"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:705
+msgid ""
+"Tracked when a customer adds a product to their cart or changes the "
+"quantity in their cart."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:711
+msgid "Product Category"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:712
+msgid "Tracked when a customer adds a product to their cart."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:718
+msgid "Coupon Code"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:719
+msgid "Tracked when a customer applies a coupon."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:725
+msgid "Order ID"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:726
+#: src/class-sv-wc-tracking-integration.php:733
+#: src/class-sv-wc-tracking-integration.php:740
+#: src/class-sv-wc-tracking-integration.php:747
+#: src/class-sv-wc-tracking-integration.php:754
+msgid "Tracked when a customer completes their purchase."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:732
+msgid "Order Total"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:739
+msgid "Shipping Total"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:746
+msgid "Total Quantity"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:753
+msgid "Payment Method"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:760
+msgid "Post Title"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:761
+msgid "Tracked when a customer leaves a comment on a post."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:767
+msgid "Shipping Country"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:768
+msgid "Tracked when a customer estimates shipping."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:774
+msgid "Purchased SKU"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:775
+#: src/class-sv-wc-tracking-integration.php:782
+#: src/class-sv-wc-tracking-integration.php:789
+#: src/class-sv-wc-tracking-integration.php:796
+#: src/class-sv-wc-tracking-integration.php:803
+msgid "Tracked when a customer purchases the product."
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:781
+msgid "Purchased Product Name"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:788
+msgid "Purchased Category"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:795
+msgid "Purchased Price"
+msgstr ""
+
+#: src/class-sv-wc-tracking-integration.php:802
+msgid "Purchased Quantity"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:74
+msgid "Google Analytics Pro"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:75
+msgid ""
+"Supercharge your Google Analytics tracking with enhanced eCommerce "
+"tracking, and custom event tracking"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:209
+msgid "Are you sure you wish to revoke access to your Google Account?"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1333
+msgid "Search"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1337
+msgid "Product category"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1341
+msgid "Product tag"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1345
+msgid "Archive"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1349
+msgid "Related/Up sell"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1353
+msgid "Cross sell (cart)"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1406
+msgid "Enable Google Analytics tracking"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1413
+msgid "Debug Mode"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1414
+msgid ""
+"Log API requests, responses, and errors for debugging. Only enable this if "
+"you experience issues!"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1436
+msgid "JavaScript function name"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1438
+#. translators: %1$s - function name, %2$s - function name
+msgid ""
+"Set the global tracker function name. %1$s is deprecated and support for it "
+"will be removed in a future version. IMPORTANT: set the function name to "
+"%2$s only after any custom code is updated to use %2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1442
+msgid "(Recommended)"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1475
+msgid "Step"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1476
+msgid "Event"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1477
+msgid "Name"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1478
+msgid "Enabled"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1528
+msgid "Yes"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1529
+msgid "Currently disabled, because the event name is not set."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1564
+msgid "Get Connected"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1570
+msgid "Re-authenticate with your Google account"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1570
+msgid "Connect your Google account"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1579
+msgid "Google Analytics Property"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1585
+msgid "Select a property&hellip;"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1587
+msgid "Choose which Analytics property you want to track"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1596
+msgid ""
+"We need view & edit access to your Analytics account so we can display "
+"reports and automatically configure Analytics settings for you."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1597
+msgid ""
+"You'll be prompted to choose an existing Google Analytics account. Click "
+"\"Allow\" to complete the connection and return here to choose a property "
+"to link to this website"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1601
+msgid "Google Analytics account"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1606
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "or %1$srevoke authorization%2$s"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1623
+msgid "Tracking Settings"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1636
+msgid "Google Analytics tracking ID"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1637
+msgid ""
+"To change your Google Analytics tracking ID, please connect a Google "
+"account."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1650
+msgid "Track Administrators?"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1653
+msgid "Check to enable tracking when logged in as Administrator or Shop Manager."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1657
+msgid "Tracking Options"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1658
+msgid "Use Advertising Features"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1663
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Set the Google Analytics code to support Demographics and Interests Reports "
+"for Remarketing and Advertising. %1$sRead more about Advertising "
+"Features%2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1667
+msgid "Use Enhanced Link Attribution"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1671
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Set the Google Analytics code to support Enhanced Link Attribution. "
+"%1$sRead more about Enhanced Link Attribution%2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1675
+msgid "Anonymize IP addresses"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1680
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Enabling this option is mandatory in certain countries due to national "
+"privacy laws. %1$sRead more about IP Anonymization%2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1684
+msgid "Track User ID"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1689
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "Enable User ID tracking. %1$sRead more about the User ID feature%2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1693
+msgid "Google Optimize"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1694
+msgid "Enable Google Optimize"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1698
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "%1$sRead more about Google Optimize%2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1702
+msgid "Google Optimize Code"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1706
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "e.g. \"GTM-XXXXXX\". %1$sRead more about this code%2$s"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1710
+msgid "Track product impressions on:"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1711
+msgid "Control where product impressions are tracked."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1712
+msgid ""
+"If you're running into issues, particularly if you see the \"No HTTP "
+"response detected\" error, try disabling product impressions on archive "
+"pages."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1716
+msgid "Single Product Pages"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1717
+msgid "Archive Pages"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1736
+msgid "Checkout Funnel"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1738
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Configure your Analytics account to match the checkout funnel steps below "
+"to take advantage of %1$sCheckout Behavior Analysis%2$s."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1743
+msgid "Funnel Steps"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:1905
+#: src/class-wc-google-analytics-pro-integration.php:2248
+msgid "Registered User"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:2248
+msgid "Guest"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:3377
+#. translators: Placeholder: %s - plugin name, in bold
+msgid ""
+"%s: The currently authenticated Google account does not have access to any "
+"Analytics accounts. Please re-authenticate with an account that has access "
+"to Google Analytics."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-integration.php:3387
+#. translators: Placeholder: %s - plugin name, in bold
+msgid ""
+"%s: Something went wrong with the request to list the Google Analytics "
+"properties for the currently authenticated Google account. Please try again "
+"in a few minutes or try re-authenticating with your Google account."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:73
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Please %1$supdate%2$s your Google Analytics Pro settings in order to start "
+"tracking Subscription events."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:408
+msgid "Subscription Event Names"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:409
+msgid ""
+"Customize the event names for Subscription events. Leave a field blank to "
+"disable tracking of that event."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:413
+msgid "Activated Subscription"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:414
+msgid "Triggered when a customer activates their subscription."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:419
+msgid "Subscription Free Trial Ended"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:420
+msgid "Triggered when a the free trial ends for a subscription."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:425
+msgid "Subscription End of Pre-Paid Term"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:426
+msgid ""
+"Triggered when the end of a pre-paid term for a previously cancelled "
+"subscription is reached."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:431
+msgid "Subscription Expired"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:432
+msgid "Triggered when a subscription expires."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:437
+msgid "Suspended Subscription"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:438
+msgid "Triggered when a customer suspends their subscription."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:443
+msgid "Reactivated Subscription"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:444
+msgid "Triggered when a customer reactivates their subscription."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:449
+msgid "Cancelled Subscription"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:450
+msgid "Triggered when a customer cancels their subscription."
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:455
+msgid "Renewed Subscription"
+msgstr ""
+
+#: src/class-wc-google-analytics-pro-subscriptions-integration.php:456
+msgid ""
+"Triggered when a customer is automatically billed for a subscription "
+"renewal."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/woocommerce-google-analytics-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Supercharge your Google Analytics tracking with enhanced eCommerce tracking "
+"and custom event tracking"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skyverge.com"
+msgstr ""
